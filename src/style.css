@@ -16,13 +16,47 @@ body {
   justify-content: center;
 }
 
-.container {
+.outer_container {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.inner_container {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  margin: 20px;
 }
 
 .learning_text {
   padding: 5px;
-  background-color: bisque;
-  display: inline;
+  background-color: hsl(47, 88%, 63%);
+  align-self: flex-start;
+  border-radius: 8px;
+}
+
+.main_picture {
+  border-radius: 8px;
+}
+
+.greg_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.greg_section img {
+  width: 30px;
+}
+
+.attribution {
+  margin-top: 10px;
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
 }
