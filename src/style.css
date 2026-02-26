@@ -63,6 +63,11 @@ body {
   margin-bottom: 2px;
 }
 
+.header:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer
+}
+
 .main_picture {
   border-radius: 8px;
 }
@@ -76,6 +81,7 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 8px;
+  margin-top: 6px;
 }
 
 .greg_section img {
